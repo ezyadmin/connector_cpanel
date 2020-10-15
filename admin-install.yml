@@ -39,7 +39,7 @@
       ignore_errors: True
 
     - name: Activate Connector Linux
-      shell: /usr/local/bin/ezinstall_patch_mgr --linux
+      shell: /usr/local/bin/ezinstall_patch_mgr --cpanel
       register: command_exec
       ignore_errors: True
       become: True
